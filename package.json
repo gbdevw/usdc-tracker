@@ -1,0 +1,24 @@
+{
+  "name": "usdc-tracker",
+  "version": "1.0.0",
+  "description": "Simple application to track USD Coin exchanges over the Ethereum Blockchain",
+  "main": "usdc-tracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbdevw/usdc-tracker.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "usdc"
+  ],
+  "author": "Guillaume BRAIBANT",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/gbdevw/usdc-tracker/issues"
+  },
+  "homepage": "https://github.com/gbdevw/usdc-tracker#readme"
+}
