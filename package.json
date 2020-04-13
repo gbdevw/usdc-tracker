@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/gbdevw/usdc-tracker/issues"
   },
-  "homepage": "https://github.com/gbdevw/usdc-tracker#readme"
+  "homepage": "https://github.com/gbdevw/usdc-tracker#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "web3": "^1.2.6",
+    "web3-eth": "^1.2.6"
+  }
 }
