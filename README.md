@@ -6,7 +6,7 @@ A simple NodeJS application to track USD Coin exchanges over the Ethereum Blockc
 
 The application outputs a log that contains the transaction details each time USDC are exchanged in the world.
 
-```json
+```
 {
   removed: false,
   logIndex: 38,
