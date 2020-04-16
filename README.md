@@ -1,6 +1,6 @@
 # USDC Tracker
 
-A simple NodeJS application to track USC Coin exchanges over the Ethereum Blockchain.
+A simple NodeJS application to track USD Coin exchanges over the Ethereum Blockchain.
 
 ![Img](./pictures/usdc-arch-global.jpg)
 
