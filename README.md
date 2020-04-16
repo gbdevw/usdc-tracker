@@ -4,7 +4,7 @@ A simple NodeJS application to track USD Coin exchanges over the Ethereum Blockc
 
 ![Img](./pictures/usdc-arch-global.jpg)
 
-The application outputs a log that contains the transaction details each time USDC are exchanged in the world.
+The application outputs a log that contains the transaction details each time USDC are exchanged in the world. Here is an example of such a log (worth 190.00$) :
 
 ```
 {
