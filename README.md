@@ -1,14 +1,49 @@
 # USDC Tracker
 
-A simple NodeJS application to track USD Coin exchanges over the Ethereum Blockchain.
+A simple NodeJS application to track USD Coin exchanges over the Ethereum Blockchain. 
 
 ![Img](./pictures/usdc-arch-global.jpg)
 
+The application outputs a log that contains the transaction details each time USDC are exchanged in the world.
+
+```json
+{
+  removed: false,
+  logIndex: 38,
+  transactionIndex: 44,
+  transactionHash: '0x5905f197e2e74ec3a088008f1814829ce3da693b60fb60906c8b092db47b00fe',
+  blockHash: '0x52b571f6a48ab3942faf0a190bf21bc45ed80ab8baf5aa9e53f209bfd12775e4',
+  blockNumber: 9885095,
+  address: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
+  id: 'log_8b0a0e0b',
+  returnValues: Result {
+    '0': '0xA910f92ACdAf488fa6eF02174fb86208Ad7722ba',
+    '1': '0xCB98225fe431824fA93DbC9A8A874F22D6DF01b4',
+    '2': '190000000',
+    from: '0xA910f92ACdAf488fa6eF02174fb86208Ad7722ba',
+    to: '0xCB98225fe431824fA93DbC9A8A874F22D6DF01b4',
+    value: '190000000'
+  },
+  event: 'Transfer',
+  signature: '0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef',
+  raw: {
+    data: '0x000000000000000000000000000000000000000000000000000000000b532b80',
+    topics: [
+      '0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef',
+      '0x000000000000000000000000a910f92acdaf488fa6ef02174fb86208ad7722ba',
+      '0x000000000000000000000000cb98225fe431824fa93dbc9a8a874f22d6df01b4'
+    ]
+  }
+}
+```
+
 ### Prerequisites
 
-This application uses Infura to connect to the Ethereum main net. 
+This NodeJS application uses Infura to connect to the Ethereum main net. 
 
-You need to create a free account and get a free key to access the Ethereum network through Infura and use this application.
+- npm
+- A free Infura Account
+- A free Infura API Key
 
 ### Run the application
 
