@@ -1,6 +1,8 @@
 # USDC Tracker
 
-A simple NdoeJS application to track USC Coin exchanges over the Ehtereum Blockchain
+A simple NodeJS application to track USC Coin exchanges over the Ehtereum Blockchain
+
+![Img](./pictures/usdc-arch-global.jpg)
 
 ### Prerequisites
 
