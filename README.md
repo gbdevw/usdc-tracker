@@ -40,7 +40,7 @@ USD Coin (USDC) is a stablecoin backed by US dollars, which are held in reserve 
 
 The USD Coin is a ERC20 Token that run on top of the Ethereum Blockchain. The ERC20 defines a standard interface to manage fungible tokens with an event called Transfer that should be fired each time the token is transfered between two parties.
 
-The USCD Smart Contract is located at the address 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48. The smart contract uses the OpenZeppelin unstructured storage proxy pattern to forward calls to a 'Logic' contract that contains the real implementation. This 'Logic' contract is based on the OpenZeppelin ERC20  implementation located at the address 0x0882477e7895bdc5cea7cb1552ed914ab157fe56. 
+The USDC smart contract is located at the address 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48. The smart contract uses the OpenZeppelin unstructured storage proxy pattern to forward calls to a 'Logic' contract that contains the real implementation. This 'Logic' contract is based on the OpenZeppelin ERC20  implementation located at the address 0x0882477e7895bdc5cea7cb1552ed914ab157fe56. 
 
 Therefore, to interact with the USDC SmartContract with Web3js, you need the get the ABI of the OpenZeppelin Implementation and use the USDC Smart Contract address. The USDC Smart Contract will forward calls to the implementing contract.
 
